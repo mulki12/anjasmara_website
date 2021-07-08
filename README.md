@@ -103,3 +103,8 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
+### Dependency Use
+1. Svelte
+2. Svelte Route
+3. Network With Fetch
