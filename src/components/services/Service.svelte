@@ -1,9 +1,7 @@
 <script>
 
-    let services = [
-        { 'id': 'J---aiyznGQ', name: 'Keyboard Cat' }
-    ];
-
+    export let SERVICE_DATA = {};
+    export let PAYMENT_DATA = {};
 </script>
 
 
@@ -33,19 +31,25 @@
         <h2 class="h2">Layanan Kami</h2>
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12">
-                <h3 class="h3">Jasa</h3>
-                <p class="strong">Menyediakan sebuah jasa dengan cara negosiasi harga</p>
+                <h3 class="h3">
+                    {SERVICE_DATA.HEADING_SERVICE ?? ''}
+                </h3>
+                <p class="strong">{SERVICE_DATA.DESCRIPTION_SERVICE}</p>
             </div>
             <div class="col-lg-4 col-md-4">
             </div>
         </div>
 
         <div class="row mb-5">
-            {#each services as service}
+            {#each SERVICE_DATA.SERVICE_LIST as service }
             <div class="col-3">
                 <div class="card">
-                    <div class="card-body">
-                        {service.id}
+                    <div class="card-body text-center">
+                        <img src="{service.ICON_SERVICE_URL}" alt="icon" class="mb-4 rounded-circle" />
+                        <h6 class="h5">{service.HEADING_SERVICE}</h6>
+                        <p class="text-center">
+                            {service.DESCRIPTION_SERVICE}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -53,26 +57,30 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12">
-                <h3 class="h3">Payment</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h3 class="h3">
+                    {PAYMENT_DATA.HEADING_SERVICE ?? ''}
+                </h3>
                 <p class="strong">
-                    Kami melayani pembayaran secara digital yang dapat diandalkan,
-                    mudah dan menyenangkan bagi pelanggan dan mitra kami.
+                    {PAYMENT_DATA.DESCRIPTION_SERVICE ?? ''}
                 </p>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                image button
             </div>
         </div>
 
         <div class="row mb-5">
+            {#each PAYMENT_DATA.PAYMENT_LIST as payment }
             <div class="col-3">
                 <div class="card">
-                    <div class="card-body">
-                        <img />
+                    <div class="card-body text-center">
+                        <img src="{payment.ICON_SERVICE_URL}" alt="icon" class="mb-4 rounded-circle" />
+                        <h6 class="h5">{payment.HEADING_SERVICE}</h6>
+                        <p class="text-center">
+                            {payment.DESCRIPTION_SERVICE}
+                        </p>
                     </div>
                 </div>
             </div>
+            {/each}
         </div>
     </div>
     

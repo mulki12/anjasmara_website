@@ -2,26 +2,31 @@
 const BANNER_DATA = {
   HEADING: "HOME BANNER",
   DECRIPTION: "",
-  TUTORIAL_URL: ""
+  BANNER_URL: "https://source.unsplash.com/user/erondu/daily"
 };
 
 const BENEFIT_DATA = {
   HEADING: "Keuntungan Pakai Anjasmara",
   BENEFIT_LIST: [
     {
-      HEADING_BENEFIT: "",
-      DESCRIPTION_BENEFIT: "",
-      ICON_BENEFIT_URL: ""
+      HEADING_BENEFIT: "LOREM IPSUM #1",
+      DESCRIPTION_BENEFIT: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_BENEFIT_URL: "https://via.placeholder.com/80"
     },
     {
-      HEADING_BENEFIT: "",
-      DESCRIPTION_BENEFIT: "",
-      ICON_BENEFIT_URL: ""
+      HEADING_BENEFIT: "LOREM IPSUM #2",
+      DESCRIPTION_BENEFIT: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_BENEFIT_URL: "https://via.placeholder.com/80"
     },
     {
-      HEADING_BENEFIT: "",
-      DESCRIPTION_BENEFIT: "",
-      ICON_BENEFIT_URL: ""
+      HEADING_BENEFIT: "LOREM IPSUM #3",
+      DESCRIPTION_BENEFIT: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_BENEFIT_URL: "https://via.placeholder.com/80"
+    },
+    {
+      HEADING_BENEFIT: "LOREM IPSUM #4",
+      DESCRIPTION_BENEFIT: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_BENEFIT_URL: "https://via.placeholder.com/80"
     }
   ]
 };
@@ -31,9 +36,14 @@ const SERVICE_DATA = {
   DESCRIPTION_SERVICE: "Menyediakan sebuah jasa dengan cara negosiasi harga",
   SERVICE_LIST: [
     {
-      HEADING_SERVICE: "",
-      DESCRIPTION_SERVICE: "",
-      ICON_SERVICE_URL: ""
+      HEADING_SERVICE: "LOREM #1",
+      DESCRIPTION_SERVICE: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_SERVICE_URL: "https://via.placeholder.com/80"
+    },
+    {
+      HEADING_SERVICE: "LOREM #2",
+      DESCRIPTION_SERVICE: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_SERVICE_URL: "https://via.placeholder.com/80"
     }
   ]
 };
@@ -41,33 +51,65 @@ const SERVICE_DATA = {
 const PAYMENT_DATA = {
   HEADING_SERVICE: "Payment",
   DESCRIPTION_SERVICE: "Kami melayani pembayaran secara digital yang dapat diandalkan, mudah dan menyenangkan bagi pelanggan dan mitra kami.",
-  SERVICE_LIST: [
+  PAYMENT_LIST: [
     {
-      HEADING_SERVICE: "",
-      DESCRIPTION_SERVICE: "",
-      ICON_SERVICE_URL: ""
+      HEADING_SERVICE: "LOREM #1",
+      DESCRIPTION_SERVICE: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+      ICON_SERVICE_URL: "https://via.placeholder.com/80"
     }
   ]
 };
 
 const FOOTER_DATA = {
-  ICON_FOOTER: "",
+  ICON_FOOTER: "https://source.unsplash.com/random/80x80",
   SITEMAP_FOOTER: [
     {
-      NAME_SITEMAP: "",
-      LINK_SITEMAP: ""
+      NAME_SITEMAP: "Tentang Anjasmara",
+      LINK_SITEMAP: "about"
+    },
+    {
+      NAME_SITEMAP: "Blog",
+      LINK_SITEMAP: "blog"
+    },
+    {
+      NAME_SITEMAP: "Kebijakan Privasi",
+      LINK_SITEMAP: "privacy"
+    },
+    {
+      NAME_SITEMAP: "Kontak",
+      LINK_SITEMAP: "contact"
     }
   ],
   SOCIAL_MEDIA : [
     {
-      NAME_SOCIAL: "",
-      LINK_SOCIAL: "",
-      ICON_SOCIAL: ""
+      NAME_SOCIAL: "facebook",
+      LINK_SOCIAL: "www.facebook.com",
+      ICON_SOCIAL: "https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-transparent-logo-png-0.png"
+    },
+    {
+      NAME_SOCIAL: "facebook",
+      LINK_SOCIAL: "www.facebook.com",
+      ICON_SOCIAL: "https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-transparent-logo-png-0.png"
+    },
+    {
+      NAME_SOCIAL: "facebook",
+      LINK_SOCIAL: "www.facebook.com",
+      ICON_SOCIAL: "https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-transparent-logo-png-0.png"
+    },
+    {
+      NAME_SOCIAL: "facebook",
+      LINK_SOCIAL: "www.facebook.com",
+      ICON_SOCIAL: "https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-transparent-logo-png-0.png"
+    },
+    {
+      NAME_SOCIAL: "facebook",
+      LINK_SOCIAL: "www.facebook.com",
+      ICON_SOCIAL: "https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-transparent-logo-png-0.png"
     }
   ],
   LINK_DOWNLOAD: {
-    PLAYSTORE: "",
-    APPSTORE: ""
+    PLAYSTORE: "/playstore",
+    APPSTORE: "/appstore"
   }
 }
 

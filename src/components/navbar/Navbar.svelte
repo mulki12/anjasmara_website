@@ -45,7 +45,7 @@
                 <Link to="blog" class="nav-link">Blog</Link>
             </li>
             <li class="nav-item">
-                <Link to="contact" class="nav-link">Contact</Link>
+                <a href="#contact" class="nav-link">Contact</a>
             </li>
         </ul>
     </div>
