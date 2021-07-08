@@ -1,7 +1,7 @@
 <script>
     import { Link } from "svelte-routing";
     
-    let src = "./logoanjas.png";
+    let src = "/logoanjas.png";
 
     function getProps({ location, href, isPartiallyCurrent, isCurrent }) {
     const isActive = href === "/" ? isCurrent : isPartiallyCurrent || isCurrent;
