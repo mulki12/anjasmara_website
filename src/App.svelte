@@ -10,6 +10,8 @@
 	import Member from "./pages/Member.svelte";
 	import Use from "./pages/Use.svelte";
 
+	import NotFound from "./pages/NotFound.svelte";
+
 	export let url = "";
 
 </script>
@@ -27,5 +29,6 @@
 	<Route path="/blog/:s" component="{BlogSingle}" />
 	<Route path="/member-jasa" component="{Member}" />
 	<Route path="/how-to-use" component="{Use}" />
+	<Route component="{NotFound}" />
 
 </Router>
