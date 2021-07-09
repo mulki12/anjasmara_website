@@ -6,13 +6,13 @@
 
     let DataDummy = Data;
 
-    onMount(async () => {
-        const res = await fetch('http://api.anjasmara.id/generals/api/v1/web/privacy');
+    // onMount(async () => {
+    //     const res = await fetch('http://api.anjasmara.id/generals/api/v1/web/privacy');
 
-        if (res.ok) {
-            DataDummy = res.json()
-        }
-    })
+    //     if (res.ok) {
+    //         DataDummy = res.json()
+    //     }
+    // })
 
 
 </script>

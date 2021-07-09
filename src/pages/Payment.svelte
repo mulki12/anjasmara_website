@@ -7,16 +7,16 @@
 
     let DataDummy = Data;
 
-    onMount(async () => {
+    // onMount(async () => {
 
-        await fetch('http://api.anjasmara.id/generals/api/v1/web/payment', {
-            method: "GET"
-        }).then( function ( res ) {
-            DataDummy = res.json()
-        }).then( function ( error ) {
-            console.log(error)
-        });
-    })
+    //     await fetch('http://api.anjasmara.id/generals/api/v1/web/payment', {
+    //         method: "GET"
+    //     }).then( function ( res ) {
+    //         DataDummy = res.json()
+    //     }).then( function ( error ) {
+    //         console.log(error)
+    //     });
+    // })
 
 
 </script>
