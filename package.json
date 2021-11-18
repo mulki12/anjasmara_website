@@ -21,6 +21,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@sideway/address": "^4.1.2",
+    "joi": "^17.4.2",
     "sirv-cli": "^1.0.0",
     "svelte-routing": "^1.6.0"
   }
